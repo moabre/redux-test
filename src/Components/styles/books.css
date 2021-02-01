@@ -1,0 +1,25 @@
+.book-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.book {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 0 5px 30px 15px rgb(0 0 0 / 20%);
+  border-radius: 0.25rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.book:hover {
+  box-shadow: 0 5px 30px 15px rgb(0 0 0 / 30%);
+}
+
+.button-wrapper > button {
+  height: 30px;
+  width: 80px;
+  border-radius: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+}
