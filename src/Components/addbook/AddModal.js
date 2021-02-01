@@ -1,7 +1,7 @@
 import React from 'react';
 import BookForm from './BookForm';
 import { useSelector } from 'react-redux';
-import './styles/addmodal.css';
+import '../styles/addmodal.css';
 
 const AddModal = () => {
   const state = useSelector((state) => state);

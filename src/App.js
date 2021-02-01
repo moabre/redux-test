@@ -1,6 +1,6 @@
 import './App.css';
-import AddBook from './Components/AddBook';
-import AddModal from './Components/AddModal';
+import AddBook from './Components/addbook/AddBook';
+import AddModal from './Components/addbook/AddModal';
 import Books from './Components/Books';
 
 function App() {

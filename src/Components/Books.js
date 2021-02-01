@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import BookDescription from './BookDescription';
-import Button from './Button';
+import BookDescription from './bookediting/BookDescription';
+import Button from './bookediting/Button';
 import { useSelector, useDispatch } from 'react-redux';
 import './styles/books.css';
-import EditModal from './EditModal';
+import EditModal from './bookediting/EditModal';
 
 const Books = () => {
   const [editBook, setEditBook] = useState({});
