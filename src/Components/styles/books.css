@@ -1,6 +1,8 @@
 .book-wrapper {
   display: flex;
   flex-direction: column;
+  max-width: 600px;
+  width: 100%;
 }
 .book {
   display: flex;
@@ -20,6 +22,11 @@
   height: 30px;
   width: 80px;
   border-radius: 25px;
-  margin-left: 10px;
+  margin: 10px;
   cursor: pointer;
+  outline: none;
+}
+
+.desc {
+  margin: 1rem 0;
 }

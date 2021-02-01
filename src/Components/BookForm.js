@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import './styles/bookform.css';
 
 const BookForm = () => {
   const [input, setInput] = useState({});
@@ -34,7 +33,7 @@ const BookForm = () => {
             onChange={(e) => handleChange(e)}
             type='text'
             name='title'
-            placeholder=''
+            placeholder='Title of book'
           />
         </div>
         <div className='input__price'>
@@ -43,7 +42,7 @@ const BookForm = () => {
             onChange={(e) => handleChange(e)}
             type='text'
             name='price'
-            placeholder=''
+            placeholder='$50.00'
           />
         </div>
         <div className='input__category'>
@@ -52,7 +51,7 @@ const BookForm = () => {
             onChange={(e) => handleChange(e)}
             type='text'
             name='category'
-            placeholder=''
+            placeholder='Fiction'
           />
         </div>
         <div className='description'>
@@ -61,7 +60,8 @@ const BookForm = () => {
             onChange={(e) => handleChange(e)}
             type='text'
             name='description'
-            placeholder=''
+            placeholder='Enter Description Here'
+            className='description'
           />
         </div>
         <div className='button-wrapper'>

@@ -1,7 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { useForm } from 'react-hook-form';
-import './styles/bookform.css';
 
 const EditForm = ({ book: { title, price, category, description, id } }) => {
   const bookValues = {
@@ -52,6 +51,7 @@ const EditForm = ({ book: { title, price, category, description, id } }) => {
             name='description'
             placeholder='Type a description'
             ref={register}
+            className='description'
           />
         </div>
         <div className='button-wrapper'>

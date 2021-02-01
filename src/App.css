@@ -18,6 +18,7 @@
   width: 80px;
   border-radius: 25px;
   align-self: center;
+  outline: none;
 }
 
 #root {

@@ -5,11 +5,13 @@ const BookDescription = ({
 }) => {
   return (
     <div className='bookDetail' key={id}>
-      <p className='title'>Title: {title}</p>
-      <p className='category'> Category: {category}</p>
-      <p className='price'>Price: {price}</p>
+      {title ? <p className='title'>Title: {title}</p> : null}
+      {category ? <p className='category'> Category: {category}</p> : null}
+      {price ? <p className='price'>Price: {price}</p> : null}
       {description ? (
-        <span className='description'>Description: {description}</span>
+        <div className='desc'>
+          <span>Description: {description}</span>
+        </div>
       ) : null}
     </div>
   );

@@ -37,3 +37,8 @@
   height: 70vh;
   background-color: white;
 }
+
+.description {
+  width: 177px;
+  margin-bottom: 10px;
+}
